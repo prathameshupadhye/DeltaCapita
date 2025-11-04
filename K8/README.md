@@ -12,13 +12,7 @@ The following is the structure for the project:
 
 
 
-Run the following commands **in order** to deploy everything:
+Run the following command to deploy everything
 
 ```bash
-kubectl apply -f k8s/namespace.yaml
-kubectl apply -f k8s/deployment.yaml
-kubectl apply -f k8s/service.yaml
-kubectl apply -f k8s/mongo.yaml
-kubectl apply -f k8s/letsencrypt.yaml
-kubectl apply -f k8s/certificates.yaml
-kubectl apply -f k8s/ingress.yaml
+kubectl apply -f k8s/
