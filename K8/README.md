@@ -15,4 +15,4 @@ The following is the structure for the project:
 Run the following command to deploy everything
 
 ```bash
-kubectl apply -f k8s/
+kubectl apply -f K8/
